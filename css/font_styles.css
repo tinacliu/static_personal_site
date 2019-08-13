@@ -1,0 +1,46 @@
+/*CSS for font sytles*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+  font-size: 18pt;
+}
+
+h3 {
+  font-size: 15pt;
+  font-weight: 300;
+}
+
+h5 {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+
+h3 strong, h5 strong {
+  font-weight: 600;
+}
+
+.highlight {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, var(--op-green) 65%);
+}
+
+.lighter {
+  font-weight: 300;
+}
+
+.ml12 {
+  margin-top: 48px;
+  font-weight: 300;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+

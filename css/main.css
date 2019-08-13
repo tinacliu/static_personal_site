@@ -1,0 +1,108 @@
+@import "card.css";
+@import "font_styles.css";
+@import "button.css";
+@import "footer.css";
+
+
+:root {
+  --op-lime: rgba(191, 178, 78, 0.5);
+  --op-green: rgba(60, 120, 50, 0.5);
+  --op-blue: rgba(30, 120, 60, 0.6);
+  --blue: rgb(60, 120, 50);
+  --dark-gray: #1C1C1C;
+  --gray: #202020;
+}
+
+
+body {
+  background-color: #F6F5F3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11pt;
+  color: var(--dark-gray);
+}
+
+
+/*CSS for divs and containers*/
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
+}
+
+.main-container {
+  margin: 0px 200px;
+}
+
+.white-box {
+  background-color: #FCFBFA;
+  color: var(--gray);
+  box-shadow: 0 10px 20px rgba(0,0,0,.03);
+}
+
+.box-lg {
+  width: 58vw;
+  padding: 16px 100px 40px 120px;
+}
+
+.two-cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.contents {
+  width: 55vw;
+  display: flex;
+
+}
+
+
+.examples {
+  width: 60%;
+}
+
+.row-email {
+  margin: 0px 0px 120px 60px;
+}
+
+/*CSS for lists*/
+.menu ul {
+  list-style-type: none;
+  margin-right: 80px;
+  text-align: right;
+}
+
+/*CSS for links*/
+
+a {
+  text-decoration: none;
+  color: var(--blue);
+ }
+
+ a:hover {
+  text-decoration: none;
+  color: var(--gray) ;
+ }
+
+
+
+/*CSS for lines and borders*/
+
+.left-line {
+  margin-left: -80px;
+  margin-top: 60px;
+  width: 8vw;
+}
+
+
+.mid-line {
+  margin-left: 120px;
+  margin-top: 32px;
+  width: 10vw;
+
+}
+ .wide-border-top {
+  border-top: 2px solid rgba(100,100,100,0.6);
+ }

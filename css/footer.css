@@ -1,0 +1,17 @@
+.footer-dream {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 16px 60px 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.footer-dream a {
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--gray);
+}
+
+.footer-dream:hover a {
+  color: var(--op-blue);
+}
