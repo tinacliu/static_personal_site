@@ -11,14 +11,14 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     duration: 2000,
     delay: function(el, i) {
-      return 600 + 30 * i;
+      return 400 + 30 * i;
     }
   }).add({
     targets: '.ml12 .letter',
     translateX: [0,-30],
     opacity: [1,0],
     easing: "easeInExpo",
-    duration: 3500,
+    duration: 1500,
     delay: function(el, i) {
       return 400 + 30 * i;
     }
