@@ -12,6 +12,6 @@
   color: var(--gray);
 }
 
-.footer-dream:hover a {
+.footer-dream a:hover {
   color: var(--op-blue);
 }
