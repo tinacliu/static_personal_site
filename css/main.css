@@ -30,9 +30,30 @@ body {
     padding-bottom: 2.5rem;
 }
 
-.main-container {
-  margin: 0px 200px;
+  .main-container {
+    margin: 0px 200px;
+  }
+
+@media(max-width: 1100px) {
+  .main-container {
+    margin: 0px 120px;
+  }
 }
+
+@media(max-width: 992px) {
+  .main-container {
+    margin: 0px 80px;
+  }
+}
+
+@media(max-width: 768px) {
+  .main-container {
+    margin: 0px 24px;
+  }
+}
+
+
+
 
 .white-box {
   background-color: #FCFBFA;
@@ -41,31 +62,48 @@ body {
 }
 
 .box-lg {
-  width: 58vw;
+  /*width: 58vw;*/
   padding: 16px 100px 40px 120px;
 }
 
-.two-cols {
+@media(max-width: 992px) {
+  .box-lg {
+    padding: 8px 40px 20px 60px;
+  }
+}
+
+@media(max-width: 768px) {
+  .box-lg {
+    padding: 8px 20px 16px 20px;
+  }
+}
+
+.new-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 60px;
 }
 
-.contents {
-  width: 55vw;
-  display: flex;
-
-}
-
-
-.examples {
-  width: 60%;
+.row-contact {
+  margin-left: 40px;
 }
 
 .row-email {
-  margin: 0px 0px 120px 60px;
+  margin: 0px 0px 120px 56px;
 }
+
+
+@media(max-width: 768px) {
+  .row-contact {
+    margin-left: 0px;
+  }
+
+  .row-email {
+    margin: 0px 0px 120px 20px;
+  }
+}
+
 
 /*CSS for lists*/
 .menu ul {
@@ -73,6 +111,13 @@ body {
   margin-right: 80px;
   text-align: right;
 }
+
+@media(max-width: 768px) {
+  .menu ul {
+    margin-right: 20px;
+  }
+}
+
 
 /*CSS for links*/
 

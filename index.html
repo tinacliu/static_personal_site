@@ -18,48 +18,56 @@
 
 <body>
   <div class="main-container">
-    <div class="d-flex justify-content-between align-items-end my-5">
-      <div class="title ml-4">
-        <h1>
-          <strong class="border-bottom border-secondary">t ina.c.liu</strong>
-          <span class='ml-2'><em>noun. / consultant, developer, data scientist /</em></span>
-        </h1>
+    <div class="row justify-content-between align-items-end my-5">
+      <div class="col-xs-12 col-md-7">
+        <div class="title ml-4">
+          <h1>
+            <strong class="border-bottom border-secondary">tina.c.liu</strong>
+            <span class='ml-2'><em>noun. / consultant, developer, data scientist /</em></span>
+          </h1>
+        </div>
       </div>
-      <div class="menu d-flex">
-        <ul >
-          <li class= "mb-1"><a onmouseover="changeText('about <',this)" onmouseout="changeText('about', this)">about</a></li>
-          <li class= "mb-1"><a onmouseover="changeText('finance consulting <',this)" onmouseout="changeText('finance consulting', this)">finance consulting</a></li>
-          <li class= "mb-1"><a onmouseover="changeText('web app development <',this)" onmouseout="changeText('web app development', this)">web app development</a></li>
-          <li class= "mb-1"><a onmouseover="changeText('contact <',this)" onmouseout="changeText('contact', this)">contact</a></li>
-        </ul>
+      <div class="col-xs-12 col-md-5">
+        <div class="menu">
+          <ul >
+            <li class= "mb-1"><a onmouseover="changeText('about <',this)" onmouseout="changeText('about', this)">about</a></li>
+            <li class= "mb-1"><a onmouseover="changeText('finance consulting <',this)" onmouseout="changeText('finance consulting', this)">finance consulting</a></li>
+            <li class= "mb-1"><a onmouseover="changeText('web app development <',this)" onmouseout="changeText('web app development', this)">web app development</a></li>
+            <li class= "mb-1"><a onmouseover="changeText('contact <',this)" onmouseout="changeText('contact', this)">contact</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
-    <div class="white-box box-lg">
-        <h3 class="mt-3">1. / <strong>consultant</strong> / providing expert advice on the structured finance space: <em>i.e. NPL pool bidding and pricing, consumer finance start-up advisory</em></h3>
-        <h3 class="mt-3">2. / ex-investment professional / at multinational IB and US hedge fund</h3>
-        <h3 class="mt-3">3. / <strong>developer</strong> / full-stack web app developer</h3>
-        <h3 class="mt-3">4. / <strong>data scientist</strong> / currently researching machine learning and deep learning models, to apply to problems in the consumer finance space</h3>
+    <div class="row">
+      <div class="col-xs-12 col-md-11 col-lg-10">
+        <div class="white-box box-lg">
+            <h3 class="mt-3">1. / <strong>consultant</strong> / providing expert advice on the structured finance space: <em>i.e. NPL pool bidding and pricing, consumer finance start-up advisory</em></h3>
+            <h3 class="mt-3">2. / ex-investment professional / at multinational IB and US hedge fund</h3>
+            <h3 class="mt-3">3. / <strong>developer</strong> / full-stack web app developer</h3>
+            <h3 class="mt-3">4. / <strong>data scientist</strong> / currently researching machine learning and deep learning models, to apply to problems in the consumer finance space</h3>
+        </div>
+      </div>
     </div>
 
     <!-- <a name="about"></a> -->
     <section id="about">
-      <div class="two-cols">
-        <div class="contents">
-          <div class="col-6 border-top border-secondary mr-4 py-4 px-0">
+      <div class="row new-section">
+        <div class="col-xs-12 col-lg-10 d-flex">
+          <div class="col-5 border-top border-secondary mr-4 py-4 px-0">
             <p>With 10 years of deal-making experience in the structured finance space gained while working at a multinational Investment Bank and a $30bn hedge fund behind me, I am currently a part-time contract consultant in the structured finance space while I acquire in-depth knowledge in the field of data science.</p>
           </div>
-          <div class="col-6 border-top border-secondary ml-3 py-4 px-0">
+          <div class="col-5 border-top border-secondary ml-3 py-4 px-0">
             <p>I aim to apply the latest machine learning algorithms to provide further insights into issues in the asset-backed securities industry using big data.
             </p>
             <p>I am also a full-stack web developer. After attending an intensive coding Bootcamp, I continue to improve upon my coding skills by building personal projects.</p>
           </div>
         </div>
-        <div class="mr-5">
+        <div class="col-xs-12 col-lg-2">
           <h2><strong class="highlight">about</strong></h2>
         </div>
+      </div>
     </section>
-
 
 
     <div class="row">
@@ -67,12 +75,12 @@
     </div>
 
 
-    <a name="finance"></a>
+    <!-- <a name="finance"></a> -->
     <section id="finance">
-      <div class="row mt-5 mr-5 m-3">
+      <div class="row mt-5 m-4">
         <h2 class="mb-4"><strong class="highlight">work / finance consulting</strong></h2>
         <p>While working in the structured finance desk at a leading hedge fund, I worked on a wide range of investment opportunities in the asset-backed space, with a key focus in the consumer credit space.  I was solely responsible for potential investments that I covered, including all stages of the investment cycle from initial analysis to execution and completion of the deals. Then I moved to the sell-side providing financing against a wide range of fixed income instruments including RMBS, CMBS, CLO, ABS, NPLs, Corporates, both liquid and illiquid. I now work in this space as a contract consultant.</p>
-        <div class="examples mx-auto">
+        <div class="col-xs-12 col-md-10 col-lg-8 mx-auto">
           <h5><strong>/ Examples of Past Consulting Projects _ </strong></h5>
           <p>> Working in a team of three, using data tapes to building cashflow models to predict future cash flow for ten NPL portfolios bought by client. For portfolios where actual data is available, overlay actual data with model predicted cashflow, to produce detailed MI for each portfolio.</p>
           <p>> Working with a consumer finance start-up in the U.K. at the early stage to advise on their capital funding options. Including working out the economics of each option and adjusting the business model to take into account the most likely capital funding route and associated costs.</p>
@@ -80,15 +88,15 @@
       </div>
     </section>
 
-    <a name="webapp"></a>
+    <!-- <a name="webapp"></a> -->
     <section id="webapp">
-      <div class="row mt-5 mr-5 m-3">
+      <div class="row mt-5 m-4">
         <div class="mx-auto"></div>
-        <div class="col-6">
+        <div class="col-xs-12 col-lg-6">
           <h2 class="mb-4"><strong class="highlight">work / web app development</strong></h2>
           <p class="pr-2">> In March 2019, I took a break from my decade long finance career and did two things that I have always wanted to do. To learn to code and to live in Japan. Kickstarting my coding skills with a 9-weeks full-time intensive coding Bootcamp that covered the essentials of programming through the construction of web applications from concept to product. I always start my projects with detailed planning and design research, then code both the front-end and back-end. </p>
         </div>
-        <div class="col-5 white-box">
+        <div class="col-xs-12 col-lg-5 white-box">
           <h5 class="ml-5"><strong> I code using ... </strong></h5>
           <div class="d-flex mb-4">
             <div class="col-6">
@@ -113,57 +121,71 @@
         </div>
       </div>
 
-      <div class="mr-5 m-3">
-        <h5><strong>/ Examples of Works _ </strong></h5>
+      <div class="row m-4">
+        <div class="">
+          <h5><strong>/ Examples of Works _ </strong></h5>
 
-        <div class="card-product">
-          <div class="card-img-wrapper" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
-            <img src="img/example-cocktail-webapp.png" />
-            <div class="card-links">
-              <a href="https://summer-cocktails.herokuapp.com/" target="_blank" class="btn-square-sm">Visit Site</a>
+          <div class="row card-product">
+            <div class="col-xs-12 col-md-5">
+              <div class="card-img-wrapper" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                <img src="img/example-cocktail-webapp.png" />
+                <div class="card-links">
+                  <a href="https://summer-cocktails.herokuapp.com/" target="_blank" class="btn-square-sm">Visit Site</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-7">
+              <div class="card-product-infos">
+                <p id="tags"> Rails /JavaScript / HTML / SCSS </p>
+                <h6>Summer Cocktails</h6>
+                <p>Personal project on creating an online recipe resource for summer cocktails. Design inspired by recipe books layouts. Built with Ruby-on-Rails, in 2 days. <a class="" data-toggle="collapse" href="#collapseCocktail" role="button" aria-expanded="false" aria-controls="collapseCocktail"><strong>Read More... </strong></a></p>
+                <div class="collapse" id="collapseCocktail">
+                  <p>Users can browse to find new cocktails, see the ingredients list on how to make the cocktail, as well as adding new cocktail and add/edit/delete ingredients. Front-end designed in Figma before turning it into code. Colour scheme chosen to reflect the summer season and fruitness of summer cocktails. </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="card-product-infos">
-            <p id="tags"> Rails /JavaScript / HTML / SCSS </p>
-            <h6>Summer Cocktails</h6>
-            <p>Personal project on creating an online recipe resource for summer cocktails. Design inspired by recipe books layouts. Built with Ruby-on-Rails, in 2 days. <a class="" data-toggle="collapse" href="#collapseCocktail" role="button" aria-expanded="false" aria-controls="collapseCocktail"><strong>Read More... </strong></a></p>
-            <div class="collapse" id="collapseCocktail">
-              <p>Users can browse to find new cocktails, see the ingredients list on how to make the cocktail, as well as adding new cocktail and add/edit/delete ingredients. Front-end designed in Figma before turning it into code. Colour scheme chosen to reflect the summer season and fruitness of summer cocktails. </p>
-            </div>
-          </div>
-        </div>
 
-        <div class="card-product">
-          <div class="card-img-wrapper" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
-            <img src="img/example-craft-webapp.png" />
-            <div class="card-links">
-              <a href="https://craft-workshops.herokuapp.com/" target="_blank" class="btn-square-sm">Visit Site</a>
+          <div class="row card-product">
+            <div class="col-xs-12 col-md-5">
+              <div class="card-img-wrapper" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                <img src="img/example-craft-webapp.png" />
+                <div class="card-links">
+                  <a href="https://craft-workshops.herokuapp.com/" target="_blank" class="btn-square-sm">Visit Site</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-7">
+              <div class="card-product-infos">
+                <p id="tags"> Rails /JS / HTML / SCSS / API: Mapbox </p>
+                <h6>Obbis <span class=""> / Craft Class Marketplace / </span></h6>
+                <p>Team project on creating a simple online marketplace for craft classes aimed at the expat community in Japan rather than tourists. Concept to product in 4 days by a small team. <a class="" data-toggle="collapse" href="#collapseObbis" role="button" aria-expanded="false" aria-controls="collapseObbis"><strong> Read More... </strong></a></p>
+                <div class="collapse" id="collapseObbis">
+                  <p>Users can browse and filter to find craft classes interesting to them, view details of a class and book an available class. Users can also list a class and track number of people signed up in the user dashboard. Prototype designed in Figma. Custom logo designed by team member. </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="card-product-infos">
-            <p id="tags"> Rails /JS / HTML / SCSS / API: Mapbox </p>
-            <h6>Obbis <span class=""> / Craft Class Marketplace / </span></h6>
-            <p>Team project on creating a simple online marketplace for craft classes aimed at the expat community in Japan rather than tourists. Concept to product in 4 days by a small team. <a class="" data-toggle="collapse" href="#collapseObbis" role="button" aria-expanded="false" aria-controls="collapseObbis"><strong> Read More... </strong></a></p>
-            <div class="collapse" id="collapseObbis">
-              <p>Users can browse and filter to find craft classes interesting to them, view details of a class and book an available class. Users can also list a class and track number of people signed up in the user dashboard. Prototype designed in Figma. Custom logo designed by team member. </p>
-            </div>
-          </div>
-        </div>
 
-        <div class="card-product">
-          <div class="card-img-wrapper" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
-            <img src="img/example-dreamom-webapp.png" />
-            <div class="card-links">
-              <a href="https://www.dream-om.co.uk/" target="_blank" class="btn-square-sm">Visit Site</a>
-              <a href="https://www.youtube.com/watch?v=lUyG1UMdoD0&t=540s"  target="_blank" class="btn-square-sm">Product Demo</a>
+          <div class="row card-product">
+            <div class="col-xs-12 col-md-5">
+              <div class="card-img-wrapper" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                <img src="img/example-dreamom-webapp.png" />
+                <div class="card-links">
+                  <a href="https://www.dream-om.co.uk/" target="_blank" class="btn-square-sm">Visit Site</a>
+                  <a href="https://www.youtube.com/watch?v=lUyG1UMdoD0&t=540s"  target="_blank" class="btn-square-sm">Product Demo</a>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="card-product-infos">
-            <p id="tags">Rails /JS / HTML / SCSS / API: Mapbox, Google Maps, Zoopla</p>
-            <h6>DREAM-OM / Self-Build Property Marketplace /</h6>
-            <p>Minimal Viable Product for a new business idea, with aim to make a self-build project in the UK as easy as buying a ready-to-move-in home. <a class="" data-toggle="collapse" href="#collapseDreamOm" role="button" aria-expanded="false" aria-controls="collapseDreamOm"><strong> Read More... </strong></a></p>
-            <div class="collapse" id="collapseDreamOm">
-              <p>DREAM-OM filters through thousands of live sale listings to display only plots with rebuild potential, then connects user to an available and experienced architect to advise on project. User journey defined in Whimsical. Prototype designed in Figma. Built with Ruby-on-Rails, concept to product in 9 days by a small team.</p>
+            <div class="col-xs-12 col-md-7">
+              <div class="card-product-infos">
+                <p id="tags">Rails /JS / HTML / SCSS / API: Mapbox, Google Maps, Zoopla</p>
+                <h6>DREAM-OM / Self-Build Property Marketplace /</h6>
+                <p>Minimal Viable Product for a new business idea, with aim to make a self-build project in the UK as easy as buying a ready-to-move-in home. <a class="" data-toggle="collapse" href="#collapseDreamOm" role="button" aria-expanded="false" aria-controls="collapseDreamOm"><strong> Read More... </strong></a></p>
+                <div class="collapse" id="collapseDreamOm">
+                  <p>DREAM-OM filters through thousands of live sale listings to display only plots with rebuild potential, then connects user to an available and experienced architect to advise on project. User journey defined in Whimsical. Prototype designed in Figma. Built with Ruby-on-Rails, concept to product in 9 days by a small team.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -174,9 +196,9 @@
       <div class="left-line wide-border-top"></div>
     </div>
 
-    <a name="contact"></a>
+    <!-- <a name="contact"></a> -->
     <section id="contact">
-      <div class="row ml-5">
+      <div class="row row-contact">
         <h5 class="ml12"> To get in touch </h5>
       </div>
       <div class="row-email">
