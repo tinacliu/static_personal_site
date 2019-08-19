@@ -15,3 +15,5 @@ function mouseOut(elem) {
 function changeText(text, elem) {
   elem.innerText = text
 }
+
+

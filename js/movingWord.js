@@ -23,3 +23,40 @@ anime.timeline({loop: true})
       return 400 + 30 * i;
     }
   });
+
+
+
+// scroll menu item to anchor on click
+
+let menu = document.querySelectorAll(".menu li a");
+
+menu.forEach((menuItem)=>{
+  if(menuItem){menuItem.addEventListener('click', (event) => {
+    const chosenItem = event.currentTarget.innerText;
+    const itemText = chosenItem.substr(0,chosenItem.length-2);
+
+    let chosenSection = document.querySelector('#about');
+
+    switch(itemText){
+      case 'about':
+        chosenSection = document.querySelector('#about');
+        break;
+      case 'finance consulting':
+        chosenSection = document.querySelector('#finance');
+        break;
+      case 'web app development':
+        chosenSection = document.querySelector('#webapp');
+        break;
+      case 'contact':
+        chosenSection = document.querySelector('#contact');
+        break;
+    }
+
+
+    chosenSection.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  })};
+});
+
